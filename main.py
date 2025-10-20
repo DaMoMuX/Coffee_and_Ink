@@ -1,5 +1,5 @@
-from db.connection import test_connection
+from db.create_tables import create_table_products
 
 if __name__ == "__main__":
-    print("Proving Connection with database")
-    test_connection()
+    print("Proving Table 'products' connection in database")
+    create_table_products()
