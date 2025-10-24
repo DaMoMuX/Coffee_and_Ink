@@ -1,6 +1,6 @@
 from datetime import datetime 
 
-class product:
+class Product:
     
     def __init__(self, id, barcode, name, brand, cost, price, stock, area, expiration_date, created_at):
         self.id = id

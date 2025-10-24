@@ -18,6 +18,7 @@ def create_table_products():
                     profit NUMERIC(10, 2) NOT NULL,
                     stock INT NOT NULL DEFAULT 1,
                     area VARCHAR(20),
+                    expiration_date TIMESTAMP,
                     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
                 );
                 """
